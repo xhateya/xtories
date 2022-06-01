@@ -24,8 +24,6 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
 
-  google_fonts: ^2.0.0
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -49,9 +47,10 @@ flutter:
     - assets/image_03.jpg
     - assets/image_04.jpg
     - assets/spooky.png
-    - assets/image_05.jpg
     - assets/image_06.jpg
-
+    - assets/imagi.jpg
+    - assets/hadeh.png
+    - assets/image_05.jpg
 
 
 
@@ -87,10 +86,6 @@ flutter:
     - family: GrapeNuts
       fonts:
         - asset: assets/GrapeNuts-Regular.ttf
-
-
-
-
 
 
 

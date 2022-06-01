@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
   _MyAppState createState() => new _MyAppState();
 }
 
-var cardAspectRatio = 12.0 / 16.0;
+var cardAspectRatio = 8.0 / 12.0;
 var widgetAspectRatio = cardAspectRatio * 1.2;
 
 class _MyAppState extends State<MyApp> {
@@ -75,7 +75,7 @@ class _MyAppState extends State<MyApp> {
                 ),
               ),
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 1.0),
+                padding: EdgeInsets.symmetric(horizontal: 10.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
@@ -97,10 +97,9 @@ class _MyAppState extends State<MyApp> {
                     ),
                     Text("666+ Stories",
                         style: TextStyle(
-                            color: Color(0xffB42929)
-
+                            color: Colors.white
                         )
-                    )
+                    ),
                   ],
                 ),
               ),

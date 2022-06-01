@@ -8,12 +8,12 @@ List<String> images = [
 ];
 
 List<String> title = [
-  "Haunted Ground",
   "Bedtime",
+  "Haunted Ground",
   "Psychosis",
-  "This New Old House",
-  "Test",
-  "Kuntilanak merah"
+  "Lucid Dream",
+  "Dancing Girl",
+  "Time Loop"
 ];
 
 
